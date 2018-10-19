@@ -1,0 +1,198 @@
+/****** BASE STYLES ****/
+
+body {
+  font-family: 'Niramit', sans-serif;
+  color: #000;
+}
+
+
+
+/**** GRID ****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 580px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.fourth-width {
+  width: 260px;
+  float: left;
+}
+
+/**** HEADER section ****/
+header {
+  height: 800px;
+  background: url('../img/white-flatlay.png');
+  background-size: cover;
+}
+
+header h1 {
+  color: #ffd11a;
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+  letter-spacing: 4px;
+  padding-left: 15px;
+  text-shadow: 3px 6px #ffeb99;
+}
+
+nav {
+  float: right;
+  margin-top: 80px
+
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #ffd11a;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding-left: 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+#hi, #site-intro {
+  clear: both;
+  color: #4d4d4d;
+  width: 500px;
+  margin: 0 20px;
+}
+
+#hi {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+#site-intro {
+  font-size: 26px;
+  height: 100px;
+  text-align: justify;
+  line-height: 45px;
+  margin: 0 20px;
+  padding: auto;
+}
+
+/**** ABOUT section ****/
+#about {
+  margin: 20px;
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+}
+
+#about .half-width {
+  padding: 0 10px;
+}
+
+#about .full-width h2 {
+  color: #b3005c;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  margin: 0;
+  padding: 12px 0;
+}
+
+#about .half-width p {
+  font-size: 18px;
+  text-align: left;
+}
+
+
+/**** WORK section ****/
+#work {
+  background: #f2f2f2;
+  padding: 70px 10px;
+  height: 400px;
+  text-align: center;
+}
+
+#work h3 {
+  color: #4d4d4d;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+}
+
+#work .fourth-width {
+  padding: 0 20px;
+}
+
+#work p {
+  text-align: justify;
+  height: auto;
+}
+
+#work img {
+  width: 175px;
+  height: auto;
+}
+
+
+/**** CONTACT section ****/
+#contact {
+  clear: both;
+  text-align: center;
+}
+
+
+#contact img#coffee {
+  border: 10px solid #999;
+  margin: 25px 0;
+  width: 500px;
+  height: auto;
+}
+
+#contact h2 {
+  color: #b3005c;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  padding-top: 25px;
+}
+
+#contact h3#email-header {
+  font-size: 22px;
+  margin: -20px 0 -5px 0;
+}
+
+#contact a {
+  font-size: 25px;
+  color: #b3005c;
+  display: inline-flex;
+  margin: auto;
+  padding: 5px 5px;
+  text-decoration: none;
+
+}
+
+
+#contact #socialmedia-header {
+  font-size: 22px;
+}
+
+#contact-info ul {
+  list-style: none;
+  margin: -20px;
+}
+
+#contact-info ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 20px;
+}
