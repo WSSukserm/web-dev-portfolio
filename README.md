@@ -9,4 +9,4 @@ to create a static webpage to show my skills!
 
 ### For more information
 
-Please feel free to visit my [LinkedIn](https://www.linkedin.com/in/wsnowsukserm/).
+Please feel free to visit my [LinkedIn](https://www.linkedin.com/in/wsnowsukserm).
